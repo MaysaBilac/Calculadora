@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Inter:wght@300;500&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #cf46f7;
+}
+.main {
+  display: inline-block;
+  background-color: white;
+  box-shadow: 1px 1px 6px black;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+input {
+  color: black;
+  padding: 1rem;
+  font-size: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 1rem;
+  margin: 0.2rem;
+  font-weight: 600;
+  border: 0.1rem;
+  box-shadow: 0.7px 0.7px gray;
+}
+.num {
+  width: 5rem;
+  height: 5rem;
+  cursor: pointer;
+}
+.num:active {
+  border: 0.1px solid gray;
+}
+
+.text {
+  border: 0.1rem solid gray;
+  width: 14.2rem;
+  height: 2.5rem;
+}
+.text1 {
+  width: 2rem;
+  height: 2.5rem;
+}
+.operador {
+  background-color: #ff69b4;
+}
+.maincolor {
+  background-color: #ffb6c1;
+}
